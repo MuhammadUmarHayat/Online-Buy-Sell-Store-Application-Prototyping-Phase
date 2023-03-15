@@ -1,0 +1,66 @@
+/* Add styles for header, main, section, and footer */
+header {
+    background-color: #0d0d0d;
+    padding: 20px;
+    text-align: center;
+    color: #ffbf00;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
+footer {
+    background-color: #0d0d0d;
+    padding: 10px;
+    text-align: center;
+    color: #ffbf00;
+}
+
+/* Media query for different screen sizes */
+@media (max-width: 767px) 
+{
+    header,
+    footer {
+        text-align: center;
+        color: #ffbf00;
+    }
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* visited link */
+a:visited {
+    color: lightpink;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: gold;
+    text-decoration: none;
+}
+.error{
+	
+    color: #FF0000;
+        
+    }
+    
